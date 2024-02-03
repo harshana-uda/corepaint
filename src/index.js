@@ -14,7 +14,7 @@ let brushColor = 'black';
 let isDrawing = false;
 
 const lineSegments = []
-W
+
 function onBrushSizeChange(element) {
     brushSize = parseInt(element.value);
 }
