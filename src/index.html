@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Core Paint</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <h4>Core Paint</h4>
+        <div class="tool-bar">
+            <div class="tool">
+                <label>Brush Size: (58%)</label>
+                <input class="slider" onchange="onBrushSizeChange(this)" type="range" name="brush-size" min="1" max="100">
+            </div>
+            <div class="tool">
+                <button name="pencil">Pencil</button>
+            </div>
+            <div class="tool">
+                <button name="pen">Pen</button>
+            </div>
+            <div class="tool">
+                <button name="eraser">Eraser</button>
+            </div>
+            <div class="tool">
+                <button name="Clear">Clear</button>
+            </div>
+        </div>
+    </header>   
+    <canvas></canvas>
+    <script src="./index.js"></script>
+</body>
+</html>
